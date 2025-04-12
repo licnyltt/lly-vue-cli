@@ -6,7 +6,6 @@ import type { App } from 'vue'
 // 自定义指令
 function useResize(el: HTMLElement, cb: Function){
     let resize = new ResizeObserver(entries => {
-        console.log('entries', entries)
         cb(entries[0].contentRect);
     });
 
