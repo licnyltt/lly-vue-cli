@@ -1,6 +1,6 @@
 {
   "name": "lly-vue-hooks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/lly-vue-hooks.umd.js",
   "module": "dist/lly-vue-hooks.mjs",
