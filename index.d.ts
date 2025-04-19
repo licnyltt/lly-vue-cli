@@ -1,5 +1,6 @@
 import type { App } from 'vue';
 
+// 扩展全局类型声明
 declare module 'lly-vue-hooks' {
   interface ResizeObserverCallback {
     (rect: DOMRectReadOnly): void;
